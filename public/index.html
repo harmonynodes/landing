@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-tailwind.png">
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer=""></script>
+
   </head>
   <body class="antialiased bg-body text-body font-body">
     <div class="">
@@ -28,7 +30,7 @@
               <li><a class="text-white font-bold text-lg" href="#faq">Faq</a></li>
               <span>
                 <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="2.5" cy="2.5" r="2.5" fill="#726B6B"></circle></svg></span>
-              <li><a class="text-white font-bold text-lg" href="#">Roadmap</a></li>
+              <li><a class="text-white font-bold text-lg" href="#roadmap">Roadmap</a></li>
             </ul></div>
           <div class="hidden lg:block"><a class="inline-block px-12 py-4 text-white font-bold border border-gray-200 hover:border-white rounded-full" href="#">Docs</a></div>
         </nav><div class="navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50 hidden">
@@ -61,9 +63,9 @@
             <div class="w-full lg:w-1/2 2xl:w-2/5 px-4 mb-12 mb:mb-0">
               <span class="text-xl lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-200 to-orange-600">Get Started!</span>
               <h2 class="max-w-lg lg:max-w-md 2xl:max-w-none mt-7 mb-12 mb:mb-20 text-6xl lg:text-7xl 2xl:text-9xl text-white font-bold font-heading">The first DAAS on Harmony</h2>
-              <p class="mb-12 lg:mb-24 text-lg text-white opacity-90">Learn how our platform works and what sets us apartt</p>
+              <p class="mb-12 lg:mb-24 text-lg text-white opacity-90">Learn how our platform works and what sets us apart.</p>
               <div class="flex flex-wrap items-center">
-                 <a class="inline-block mr-14 px-12 py-5 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="#">Join Discord</a><a class="inline-block mr-14 px-12 py-5 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="#" style="background: orange;margin-left: -15px;">Enter App</a>
+                 <a class="inline-block mr-14 px-12 py-5 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="https://discord.gg/By2V5Y9qB6">Join Discord</a><a class="inline-block mr-14 px-12 py-5 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="#" style="background: orange;margin-left: -15px;">Enter App</a>
                 <div class="w-full sm:w-auto mt-8 sm:mt-0 flex">
                   
                   <span class="py-2 px-4">
@@ -73,8 +75,8 @@
                 </div>
               </div>
             </div>
-            <div class="w-full lg:w-1/2 2xl:w-3/5 px-4">
-              <img class="w-full h-full object-contain" src="images/learn-one.png" alt=""></div>
+            <div class="w-full lg:w-1/2 2xl:w-3/5 px-4" style="/* margin-bottom: 3000px; */">
+              <img class="w-full h-full object-contain" src="images/learn-one.png" alt="" style="margin-top: -80px;"></div>
           </div>
         </div>
         <div class="navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50 hidden">
@@ -88,12 +90,12 @@
                 <li class="mb-1 px-10"><a class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" href="#faq
 ">FAQ</a></li>
                 <li class="mb-1 px-10"><a class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" href="#team">Team</a></li>
-                <li class="mb-1 px-10"><a class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" href="#">Roadmap</a></li>
+                <li class="mb-1 px-10"><a href="#roadmap" class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl">Roadmap</a></li>
               </ul></div>
             <div class="mt-auto px-10">
-              <div class="pt-6"><a class="block mb-4 py-4 px-12 text-gray-800 text-center font-bold border border-gray-50 hover:border-gray-100 rounded-full" href="#">Enter App</a><a class="block py-4 px-12 text-white text-center font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="#">Join Discord</a></div>
+              <div class="pt-6"><a class="block mb-4 py-4 px-12 text-gray-800 text-center font-bold border border-gray-50 hover:border-gray-100 rounded-full" href="#">Enter App</a><a href="https://discord.gg/By2V5Y9qB6" class="block py-4 px-12 text-white text-center font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200">Join Discord</a></div>
               <p class="mt-6 mb-4 text-lg text-center">
-                <span>2021 © Zospace. All rights reserved.</span>
+                <span>2021 © Harmony Nodes. All rights reserved.</span>
               </p>
             </div>
           </nav></div>
@@ -199,133 +201,268 @@
           </div>
         </div>
       </section>
+<section>
+    <div id="roadmap" class="bg-blue-300 text-white py-8">
+    <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
+      <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
         
-      <section class="relative pb-20 2xl:py-40 bg-gray-800 overflow-hidden bg-blue-300"><img class="hidden lg:block absolute z-10 top-0 left-0 w-2/6 h-full object-cover" src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt=""><img class="hidden lg:block absolute bottom-0 left-0 h-128 -mb-64 ml-64" src="zospace-assets/lines/circle.svg" alt=""><div id="faq" class="relative w-full lg:w-4/6 ml-auto pl-4 lg:pl-24 pr-4 pt-20 bg-blue-300">
-          <div class="mb-20">
-            <span class="text-lg font-bold text-blue-500">Hey! Have any questions?</span>
-            <h2 class="mt-8 text-7xl text-white font-bold font-heading">FAQ's</h2>
-          </div>
-          <div class="max-w-4xl">
-            <div class="flex flex-wrap -m-2">
-              <div class="w-full md:w-1/2 p-2">
-                <div class="mb-4 py-10 px-8 bg-gray-700 rounded-xl">
-                  <button class="flex flex-wrap -mx-1 w-full text-left">
-                    <div class="w-1/4 px-1">
-                      <span class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">1</span>
-                      <div class="mt-8 ml-6 inline-block lg:h-20 w-px bg-gray-500"></div>
-                    </div>
-                    <div class="w-3/4 px-1">
-                      <div class="flex items-center">
-                        <h3 class="text-xl text-white font-bold">When are you launching?</h3>
-                        <span class="pl-4">
-                          <svg class="w-4 h-4" width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z" fill="#1F40FF"></path></svg></span>
-                      </div>
-                      <div class="w-full mt-8 pr-4">
-                        <p class="text-lg text-gray-300">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
-                      </div>
-                    </div>
-                  </button>
-                </div>
-                <div class="mb-4 py-10 px-8 bg-gray-700 rounded-xl">
-                  <button class="flex flex-wrap items-center -mx-1 w-full text-left">
-                    <div class="w-1/4 px-1">
-                      <span class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">4</span>
-                      <div class="hidden mt-8 ml-6 h-20 w-px bg-gray-500"></div>
-                    </div>
-                    <div class="w-3/4 px-1">
-                      <div class="flex items-center">
-                        <h3 class="text-xl text-white font-bold">How can I join the presale?</h3>
-                        <span class="pl-4">
-                          <svg class="w-4 h-4" width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z" fill="#1F40FF"></path></svg></span>
-                      </div>
-                      <div class="hidden w-full mt-8 pr-4">
-                        <p class="text-lg text-gray-300">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
-                      </div>
-                    </div>
-                  </button>
-                </div>
-                <div class="py-10 px-8 bg-gray-700 rounded-xl">
-                  <button class="flex flex-wrap items-center -mx-1 w-full text-left">
-                    <div class="w-1/4 px-1">
-                      <span class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">6</span>
-                      <div class="hidden mt-8 ml-6 h-20 w-px bg-gray-500"></div>
-                    </div>
-                    <div class="w-3/4 px-1">
-                      <div class="flex items-center">
-                        <h3 class="text-xl text-white font-bold">What makes you unique?</h3>
-                        <span class="pl-4">
-                          <svg class="w-4 h-4" width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z" fill="#1F40FF"></path></svg></span>
-                      </div>
-                      <div class="hidden w-full mt-8 pr-4">
-                        <p class="text-lg text-gray-300">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
-                      </div>
-                    </div>
-                  </button>
-                </div>
-              </div>
-              <div class="w-full md:w-1/2 p-2">
-                <div>
-                  <div class="mb-4 py-10 px-8 bg-gray-700 rounded-xl">
-                    <button class="flex flex-wrap items-center -mx-1 w-full text-left">
-                      <div class="w-1/4 px-1">
-                        <span class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">2</span>
-                        <div class="hidden mt-8 ml-6 h-20 w-px bg-gray-500"></div>
-                      </div>
-                      <div class="w-3/4 px-1">
-                        <div class="flex items-center">
-                          <h3 class="text-xl text-white font-bold">Are you audited and kyced?</h3>
-                          <span class="pl-4">
-                            <svg class="w-4 h-4" width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z" fill="#1F40FF"></path></svg></span>
-                        </div>
-                        <div class="hidden w-full mt-8 pr-4">
-                          <p class="text-lg text-gray-300">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
-                        </div>
-                      </div>
-                    </button>
-                  </div>
-                  <div class="mb-4 py-10 px-8 bg-gray-700 rounded-xl">
-                    <button class="flex flex-wrap items-center -mx-1 w-full text-left">
-                      <div class="w-1/4 px-1">
-                        <span class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">3</span>
-                        <div class="hidden mt-8 ml-6 h-20 w-px bg-gray-500"></div>
-                      </div>
-                      <div class="w-3/4 px-1">
-                        <div class="flex items-center">
-                          <h3 class="text-xl text-white font-bold">What are you doing for sustainability?</h3>
-                          <span class="pl-4">
-                            <svg class="w-4 h-4" width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z" fill="#1F40FF"></path></svg></span>
-                        </div>
-                        <div class="hidden w-full mt-8 pr-4">
-                          <p class="text-lg text-gray-300">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
-                        </div>
-                      </div>
-                    </button>
-                  </div>
-                  <div class="py-10 px-8 bg-gray-700 rounded-xl">
-                    <button class="flex flex-wrap -mx-1 w-full text-left">
-                      <div class="w-1/4 px-1">
-                        <span class="flex items-center justify-center w-12 h-12 text-lg font-bold bg-white rounded-full">5</span>
-                        <div class="hidden mt-8 ml-6 h-20 w-px bg-gray-500"></div>
-                      </div>
-                      <div class="w-3/4 px-1">
-                        <div class="flex items-center">
-                          <h3 class="text-xl text-white font-bold">Is there a roadmap or white paper out?</h3>
-                          <span class="pl-4">
-                            <svg class="w-4 h-4" width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.18267 9.00018C0.910673 9.26818 0.473672 9.26818 0.203672 9.00018C-0.0663284 8.73218 -0.0673279 8.29918 0.203672 8.03118L8.11167 0.201183C8.38167 -0.0668173 8.81867 -0.0668173 9.09067 0.201183L16.9987 8.03118C17.2687 8.29918 17.2687 8.73218 16.9987 9.00018C16.7277 9.26818 16.2897 9.26818 16.0197 9.00018L8.60067 1.85918L1.18267 9.00018Z" fill="#1F40FF"></path></svg></span>
-                        </div>
-                        <div class="hidden w-full mt-8 pr-4">
-                          <p class="text-lg text-gray-300">The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
-                        </div>
-                      </div>
-                    </button>
-                  </div>
-                </div>
+        <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Harmony Nodes Roadmap</p>
+        <p class="text-sm md:text-base text-gray-50 mb-4">A Timeline of All Major Phases of Harmony Nodes</p>
+        <a href="#" class="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+        Explore Now</a>
+      </div>
+      <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
+        <div class="container mx-auto w-full h-full">
+          <div class="relative wrap overflow-hidden p-10 h-full">
+            <div class="border-2-2 border-yellow-555 absolute h-full border" style="right: 50%; border: 2px solid #FFC100; border-radius: 1%;"></div>
+            <div class="border-2-2 border-yellow-555 absolute h-full border" style="left: 50%; border: 2px solid #FFC100; border-radius: 1%;"></div>
+            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="order-1 w-5/12 px-1 py-4 text-right">
+                <p class="mb-3 text-base text-yellow-300">March 3 - 5</p>
+                <h4 class="mb-3 font-bold text-lg md:text-2xl">Community Building</h4>
+                <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                  Pick your favourite event(s) and register in that event by filling the form corresponding to that
+                  event. Its that easy :)
+                </p>
               </div>
             </div>
-            <div class="mt-12 text-right"></div>
+            <div class="mb-8 flex justify-between items-center w-full right-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="order-1  w-5/12 px-1 py-4 text-left">
+                <p class="mb-3 text-base text-yellow-300">March 5 - 10</p>
+                <h4 class="mb-3 font-bold text-lg md:text-2xl">Marketing and Development</h4>
+                <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                  Participate online. The links for your registered events will be sent to you via email and whatsapp
+                  groups. Use those links and show your talent.
+                </p>
+              </div>
+            </div>
+            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="order-1 w-5/12 px-1 py-4 text-right">
+                <p class="mb-3 text-base text-yellow-300">March 10-14</p>
+                <h4 class="mb-3 font-bold text-lg md:text-2xl">Presale</h4>
+                <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                  The ultimate genius will be revealed by our judging panel on 10th May, 2021 and the resukts will be
+                  announced on the whatsapp groups and will be mailed to you.
+                </p>
+              </div>
+            </div>
+
+            <div class="mb-8 flex justify-between items-center w-full right-timeline">
+              <div class="order-1 w-5/12"></div>
+
+              <div class="order-1  w-5/12 px-1 py-4">
+                <p class="mb-3 text-base text-yellow-300">March 14-28</p>
+                <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">Public Sale</h4>
+                <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                  The winners will be contacted by our team for their addresses and the winning goodies will be sent at
+                  their addresses.
+                </p>
+              </div>
+            </div>
           </div>
+          <img class="mx-auto -mt-36 md:-mt-36" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png">
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+  </section>
+
+        
+        <article id="faq" class="py-8 px-4 lg:px-10 bg-gray-800 bg-blue-300">
+
+<div>
+    <div class="mx-auto max-w-6xl">
+        <div class="p-2 rounded">
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/3 p-4 text-sm">
+
+            <div class="sticky inset-x-0 top-0 left-0 py-12">
+                
+                    <div class="text-3xl text-green-400 mb-8">Frequently asked questions.</div>
+                    <div class="mb-2">Have a question that's not answered? Write your question to the team in discord.</div>
+                    
+
+                    
+
+                    </div>
+                </div>
+                <div class="md:w-2/3 py-12 ">
+                    <div class="p-4">
+
+            <div class="item px-6 py-6" x-data="{isOpen : false}">
+                <a href="#" class="flex items-center justify-between" @click.prevent="isOpen = true">
+                    <h4 :class="{'text-green-400 font-medium' : isOpen == true}" class="">What is Harmony Nodes and what makes this project unique?</h4>
+                    <svg :class="{'transform rotate-180' : isOpen == true}" class="w-5 h-5 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}" style="display: none;">
+                    <p>&nbsp;Harmony Nodes is the first DAAS on the harmony ecosystem. Using our native token $HONE, users will be able to create nodes from several tiers and earn passive income at .5-1.5% daily. One of the things that sets us apart is that users will be able to combine lower tiers of nodes into higher tiers. So if a user starts with one pico node and works up to two of them, he can combine them into 1 nano node and receive a higher daily return. Since the presale is only pico nodes, if users buy more than one they'll be able to merge them into the higher tiers at launch.</p>
+                </div>
+            </div>
+            
+            <div class="item px-6 py-6" x-data="{isOpen : false}">
+                <a href="#" class="flex items-center justify-between" @click.prevent="isOpen = true">
+                    <h4 :class="{'text-green-400 font-medium' : isOpen == true}" class="">Are you audited or KYCd?</h4>
+                    <svg :class="{'transform rotate-180' : isOpen == true}" class="w-5 h-5 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}" style="display: none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+
+            <div class="item px-6 py-6" x-data="{isOpen : false}">
+                <a href="#" class="flex items-center justify-between" @click.prevent="isOpen = true">
+                    <h4 :class="{'text-white-400 font-medium' : isOpen == true}" class="">Where is the team located and what's their background?</h4>
+                    <svg :class="{'transform rotate-180' : isOpen == true}" class="w-5 h-5 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}" style="display: none;">
+                    <p>The team is all us based. We're made up of one solidity dev and one front end dev.</p>
+                </div>
+            </div>
+
+            <div class="item px-6 py-6" x-data="{isOpen : false}">
+                <a href="#" class="flex items-center justify-between" @click.prevent="isOpen = true">
+                    <h4 :class="{'text-green-400 font-medium' : isOpen == true}" class="">How can I get whitelisted?</h4>
+                    <svg :class="{'transform rotate-180' : isOpen == true}" class="w-5 h-5 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}" style="display: none;">
+                    <p>Meet the invite requirements.</p>
+                </div>
+            </div>
+
+            <div class="item px-6 py-6" x-data="{isOpen : false}">
+                <a href="#" class="flex items-center justify-between" @click.prevent="isOpen = true">
+                    <h4 :class="{'text-green-400 font-medium' : isOpen == true}" class="">What do whitelisted members get?</h4>
+                    <svg :class="{'transform rotate-180' : isOpen == true}" class="w-5 h-5 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}" style="display: none;">
+                    <p>Whitelisted members will be able to participate to the presale, where they'll be able to purchase nfts redeemable for nodes at a fixed price. Those who own an nft will be able to claim nodes directly from the front end at launch at a 1:1 rate (one node per nft owned).</p>
+                </div>
+            </div>
+
+            <div class="item px-6 py-6" x-data="{isOpen : false}">
+                <a href="#" class="flex items-center justify-between" @click.prevent="isOpen = true">
+                    <h4 :class="{'text-green-400 font-medium' : isOpen == true}" class="">When is the presale?&nbsp;</h4>
+                    <svg :class="{'transform rotate-180' : isOpen == true}" class="w-5 h-5 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}" style="display: none;">
+                    <p>March 10-March 14</p>
+                </div>
+            </div>
+
+            <div class="item px-6 py-6" x-data="{isOpen : false}">
+                <a href="#" class="flex items-center justify-between" @click.prevent="isOpen = true">
+                    <h4 :class="{'text-green-400 font-medium' : isOpen == true}" class="">How will the presale work?</h4>
+                    <svg :class="{'transform rotate-180' : isOpen == true}" class="w-5 h-5 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}" style="display: none;">
+                    <p>In the presale, members will be able to mint nfts redeemable for nodes at a fixed price. Those who own an nft will be able to claim nodes directly from the front end at launch at a 1:1 rate (one node per nft owned).As mentioned above, the presale is only for pico nodes, so if users buy more than one they'll be able to merge them into the higher tiers nodes at launch.The price per nft will be $200. Whitelisted members will be able to mint up to 10.</p>
+                </div>
+            </div>
+
+            <div class="item px-6 py-6" x-data="{isOpen : false}">
+                <a href="#" class="flex items-center justify-between" @click.prevent="isOpen = true">
+                    <h4 :class="{'text-green-400 font-medium' : isOpen == true}" class="">When is public launch?</h4>
+                    <svg :class="{'transform rotate-180' : isOpen == true}" class="w-5 h-5 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}" style="display: none;">
+                    <p>March 24- April 1.&nbsp;</p>
+                </div>
+            </div>
+
+            <div class="item px-6 py-6" x-data="{isOpen : false}">
+                <a href="#" class="flex items-center justify-between" @click.prevent="isOpen = true">
+                    <h4 :class="{'text-green-400 font-medium' : isOpen == true}" class="">What are the tokenomics of your platform?</h4>
+                    <svg :class="{'transform rotate-180' : isOpen == true}" class="w-5 h-5 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}" style="display: none;">
+                    <p>The total supply of HONE will be 1 million.Presale price will be $20/HONE.Public Price will be $25/HONEWe'll have 4 tiers of nodes with variable reward rates.The first Tier will be the Harmony Nano Node. This will require 10 HONE to create and have a &nbsp;1% daily return.The second Tier will be the Harmony Pico Node. This will require 20 HONE to create and have a &nbsp;1.15% daily return.The third Tier will be the Harmony Giga Node. This will require 50 HONE to create and have a &nbsp;1.35% daily return.The third Tier will be the Harmony Mega Node. This will require 100 HONE to create and have a &nbsp;1.75% daily return.When nodes are created 40% of the HONE used will be burned 50% will be &nbsp;sent to the reward pool and 10% will be used to add to liquidity.There will also be a 15% sales tax and &nbsp;40% transfer &nbsp;tax.</p>
+                </div>
+            </div>
+            
+            <div class="item px-6 py-6" x-data="{isOpen : false}">
+                <a href="#" class="flex items-center justify-between" @click.prevent="isOpen = true">
+                    <h4 :class="{'text-green-400 font-medium' : isOpen == true}" class="">Do you guys have any plans for treasury investments?</h4>
+                    <svg :class="{'transform rotate-180' : isOpen == true}" class="w-5 h-5 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}" style="display: none;">
+                    <p>Yes. We intend to purchase harmony validator nodes as our first investment. Some other potential oppurtunities were looking at include cosmos validator nodes as well as stablecoin farming opportunities.</p>
+                </div>
+            </div>
+            
+            <div class="item px-6 py-6" x-data="{isOpen : false}">
+                <a href="#" class="flex items-center justify-between" @click.prevent="isOpen = true">
+                    <h4 :class="{'text-green-400 font-medium' : isOpen == true}" class="">How can you guarantee the sustainability of our protocol?</h4>
+                    <svg :class="{'transform rotate-180' : isOpen == true}" class="w-5 h-5 text-gray-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+                <div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}" style="display: none;">
+                    <p>Where implementing a unique mechanism where after users have broken even after around 90-125 days, every time users claim and sell, their effective daily rewards reduce by a certain %.&nbsp;We'll also have buy limits &nbsp;in place.&nbsp;</p>
+                </div>
+            </div>
+            
+        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</article>
+
+<div x-data="scrollHandler(document.getElementById('the-article'))" aria-hidden="true" @scroll.window="calculateHeight(window.scrollY)" class="fixed h-screen w-1 hover:bg-gray-200 top-0 left-0 bg-gray-300">
+	<div :style="`max-height:${height}%`" class="h-full bg-green-400" style="max-height:0%"></div>
+</div>
+
+<div id="alpine-devtools" x-data="devtools()" x-show="alpines.length" x-init="start()">
+</div>
+<script>
+function scrollHandler(element = null) {
+	return {
+		height: 0,
+		element: element,
+		calculateHeight(position) {
+			const distanceFromTop = this.element.offsetTop
+			const contentHeight = this.element.clientHeight
+			const visibleContent = contentHeight - window.innerHeight
+			const start = Math.max(0, position - distanceFromTop)
+			const percent = (start / visibleContent) * 100;
+			requestAnimationFrame(() => {
+				this.height = percent;
+			});
+		},
+		init() {
+			this.element = this.element || document.body;
+			this.calculateHeight(window.scrollY);
+		}
+	};
+}
+
+</script>
         
       <section class="relative py-20 2xl:py-40 bg-gray-800 overflow-hidden bg-blue-300"><img class="absolute top-0 left-0 -mt-80 -ml-96" src="zospace-assets/lines/circle.svg" alt=""><img class="absolute bottom-0 right-0 h-full -mb-40 -mr-96" src="zospace-assets/lines/circle.svg" alt=""><div id="team" class="relative container px-4 mx-auto">
           <h2 class="mb-24 text-center text-5xl font-bold font-heading text-white">Our Team</h2>
@@ -387,7 +524,7 @@
             <a class="inline-block mb-20 text-white text-xl font-bold" href="#">
               <img class="h-7 text-black" src="zospace-assets/logos/zospace-logo.svg" alt="" width="auto"></a>
             <div class="flex justify-center">
-              <a class="flex justify-center items-center w-12 h-12 mr-4 bg-gray-600 rounded-full" href="#">
+              <a class="flex justify-center items-center w-12 h-12 mr-4 bg-gray-600 rounded-full" href="https://discord.gg/By2V5Y9qB6">
                 <svg xmlns="http://www.w3.org/2000/svg" width="71" height="55" viewBox="0 0 71 55" fill="none" style="width: 1rem;">
 <g clip-path="url(#clip0)">
 <path d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.41542C45.5603 0.39851 45.468 0.440769 45.4204 0.525289C44.7963 1.6353 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0581 26.1886 1.6353 25.5617 0.525289C25.5141 0.443589 25.4218 0.40133 25.3294 0.41542C20.2584 1.2888 15.4057 2.8186 10.8776 4.8978C10.8384 4.9147 10.8048 4.9429 10.7825 4.9795C1.57795 18.7309 -0.943561 32.1443 0.293408 45.3914C0.299005 45.4562 0.335386 45.5182 0.385761 45.5576C6.45866 50.0174 12.3413 52.7249 18.1147 54.5195C18.2071 54.5477 18.305 54.5139 18.3638 54.4378C19.7295 52.5728 20.9469 50.6063 21.9907 48.5383C22.0523 48.4172 21.9935 48.2735 21.8676 48.2256C19.9366 47.4931 18.0979 46.6 16.3292 45.5858C16.1893 45.5041 16.1781 45.304 16.3068 45.2082C16.679 44.9293 17.0513 44.6391 17.4067 44.3461C17.471 44.2926 17.5606 44.2813 17.6362 44.3151C29.2558 49.6202 41.8354 49.6202 53.3179 44.3151C53.3935 44.2785 53.4831 44.2898 53.5502 44.3433C53.9057 44.6363 54.2779 44.9293 54.6529 45.2082C54.7816 45.304 54.7732 45.5041 54.6333 45.5858C52.8646 46.6197 51.0259 47.4931 49.0921 48.2228C48.9662 48.2707 48.9102 48.4172 48.9718 48.5383C50.038 50.6034 51.2554 52.5699 52.5959 54.435C52.6519 54.5139 52.7526 54.5477 52.845 54.5195C58.6464 52.7249 64.529 50.0174 70.6019 45.5576C70.6551 45.5182 70.6887 45.459 70.6943 45.3942C72.1747 30.0791 68.2147 16.7757 60.1968 4.9823C60.1772 4.9429 60.1437 4.9147 60.1045 4.8978ZM23.7259 37.3253C20.2276 37.3253 17.3451 34.1136 17.3451 30.1693C17.3451 26.225 20.1717 23.0133 23.7259 23.0133C27.308 23.0133 30.1626 26.2532 30.1066 30.1693C30.1066 34.1136 27.28 37.3253 23.7259 37.3253ZM47.3178 37.3253C43.8196 37.3253 40.9371 34.1136 40.9371 30.1693C40.9371 26.225 43.7636 23.0133 47.3178 23.0133C50.9 23.0133 53.7545 26.2532 53.6986 30.1693C53.6986 34.1136 50.9 37.3253 47.3178 37.3253Z" fill="#ffffff" style="width: 1 rem;"></path>
@@ -398,14 +535,14 @@
 </clipPath>
 </defs>
 </svg></a>
-              <a class="flex justify-center items-center w-12 h-12 mr-4 bg-gray-600 rounded-full" href="#" style="width: 1 rem;">
+              <a class="flex justify-center items-center w-12 h-12 mr-4 bg-gray-600 rounded-full" href="https://harmonynodes.medium.com/" style="width: 1 rem;">
                 <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" width="500px" height="500px" style="width: 1rem;">
 <g id="surface98387208">
 <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 30 60 L 70 110.917969 L 70 352.851562 L 10 430 L 150 430 L 90 352.851562 L 90 137.5 L 220 430 L 219.980469 430.136719 L 340 135.449219 L 340 390 L 300 430 L 470 430 L 430 390 L 429.726562 105.039062 L 468.632812 60.136719 L 348.457031 60.136719 L 256.054688 287.441406 L 154.960938 60 Z M 30 60 "></path>
 <path style=" stroke:none;fill-rule:nonzero;fill:rgb(80.000001%,80.000001%,80.000001%);fill-opacity:1;" d="M 288.359375 200.40625 L 288.359375 211.164062 L 256.46875 211.164062 L 256.46875 299.59375 L 243.445312 299.59375 L 243.445312 211.164062 L 211.640625 211.164062 L 211.640625 200.40625 Z M 288.359375 200.40625 "></path>
 </g>
 </svg></a>
-              <a class="flex justify-center items-center w-12 h-12 bg-gray-600 rounded-full" href="#">
+              <a class="flex justify-center items-center w-12 h-12 bg-gray-600 rounded-full" href="https://twitter.com/harmonynodes">
                 <svg class="w-4 h-4 text-white" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 2.41887C17.3306 2.7125 16.6174 2.90712 15.8737 3.00162C16.6388 2.54487 17.2226 1.82712 17.4971 0.962C16.7839 1.38725 15.9964 1.68763 15.1571 1.85525C14.4799 1.13413 13.5146 0.6875 12.4616 0.6875C10.4186 0.6875 8.77387 2.34575 8.77387 4.37863C8.77387 4.67113 8.79862 4.95237 8.85938 5.22012C5.7915 5.0705 3.07687 3.60013 1.25325 1.36025C0.934875 1.91263 0.748125 2.54488 0.748125 3.2255C0.748125 4.5035 1.40625 5.63637 2.38725 6.29225C1.79437 6.281 1.21275 6.10888 0.72 5.83775C0.72 5.849 0.72 5.86363 0.72 5.87825C0.72 7.6715 1.99912 9.161 3.6765 9.50412C3.37612 9.58625 3.04875 9.62562 2.709 9.62562C2.47275 9.62562 2.23425 9.61213 2.01038 9.56262C2.4885 11.024 3.84525 12.0984 5.4585 12.1332C4.203 13.1154 2.60888 13.7071 0.883125 13.7071C0.5805 13.7071 0.29025 13.6936 0 13.6565C1.63462 14.7106 3.57188 15.3125 5.661 15.3125C12.4515 15.3125 16.164 9.6875 16.164 4.81175C16.164 4.64862 16.1584 4.49113 16.1505 4.33475C16.8829 3.815 17.4982 3.16587 18 2.41887Z" fill="white"></path></svg></a>
             </div>
           </div>
@@ -416,4 +553,4 @@
   
 
 
-</body></html>
+ </body></html>
